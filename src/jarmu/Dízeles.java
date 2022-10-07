@@ -3,8 +3,8 @@ package jarmu;
 public class Dízeles extends Auto{
     private int uzemanyag;
 
-    public Dízeles(String rendszam, int aktSebesseg, int ajtokSzama, String marka, int uzemanyag) {
-        super(rendszam, aktSebesseg, ajtokSzama, marka);
+    public Dízeles(String rendszam, int aktSebesseg, int ajtokSzama, String uzemanyagTipus, int uzemanyag) {
+        super(rendszam, aktSebesseg, ajtokSzama, uzemanyagTipus);
         this.uzemanyag = uzemanyag;
     }
 
@@ -23,6 +23,6 @@ public class Dízeles extends Auto{
 
     @Override
     public String toString() {
-        return "Dízeles:"+super.toString()+" "+this.marka;
+        return "Dízeles:"+super.toString()+" "+this.uzemanyagTipus;
     }
 }

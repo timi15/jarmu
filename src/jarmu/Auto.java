@@ -2,12 +2,14 @@ package jarmu;
 
 public abstract class Auto extends Jarmu{
     private int ajtokSzama;
-    protected String marka;
 
-    public Auto(String rendszam, int aktSebesseg, int ajtokSzama, String marka) {
+
+    protected String uzemanyagTipus;
+
+    public Auto(String rendszam, int aktSebesseg, int ajtokSzama, String uzemanyagTipus) {
         super(rendszam, aktSebesseg);
         this.ajtokSzama = ajtokSzama;
-        this.marka = marka;
+        this.uzemanyagTipus = uzemanyagTipus;
     }
 
     public int getAjtokSzama() {
@@ -18,11 +20,11 @@ public abstract class Auto extends Jarmu{
         this.ajtokSzama = ajtokSzama;
     }
 
-    public String getMarka() {
-        return marka;
+    public String getUzemanyagTipus() {
+        return uzemanyagTipus;
     }
 
-    public void setMarka(String marka) {
-        this.marka = marka;
+    public void setUzemanyagTipus(String uzemanyagTipus) {
+        this.uzemanyagTipus = uzemanyagTipus;
     }
 }
