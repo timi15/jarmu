@@ -1,4 +1,7 @@
 package jarmu;
+import jarmu.Benzines;
+import jarmu.Dízeles;
+import jarmu.Motor;
 
 public class Autopalya {
 
