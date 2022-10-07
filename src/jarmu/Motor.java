@@ -33,6 +33,6 @@ public class Motor extends  Jarmu{
 
     @Override
     public String toString() {
-        return "Motor: "+super.toString();
+        return "Motor: "+super.toString()+ this.marka;
     }
 }

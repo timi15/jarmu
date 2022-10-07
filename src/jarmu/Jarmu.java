@@ -3,7 +3,7 @@ package jarmu;
 public abstract class Jarmu {
 
     private String rendszam;
-    private int aktSebesseg;
+    protected int aktSebesseg;
 
     public Jarmu(String rendszam, int aktSebesseg) {
         this.rendszam = rendszam;
